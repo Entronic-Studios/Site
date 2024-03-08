@@ -44,23 +44,30 @@ body{
 
 
 /* INICIO DA CUSTOMIZAÇÃO DOS ARTIGOS */
-.titulo-artigo{
+.nossos-servicos{
     display: flex;
     margin-left: 35px;
+    color: #b6b6b6;
+}
+
+.titulo-artigo{
+    display: flex;
+    margin: 10px 10px 10px 35px;
     color: #b6b6b6;
     font-size: 24px;
 }
 
-.artigo-um{
+.artigos{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
     margin-bottom: 30px;
     background-color: #1F2026;
 }
 
-.imagem-agatha{
+.imagem-artigo{
     width: 350px;
     padding-top: 3px;
 }
@@ -71,23 +78,6 @@ body{
     padding: 0 20px 0 20px;
 }
 
-.artigo-dois{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    background-color: #1F2026;
-}
-
-.proj-um{
-    margin-top: 50px;
-}
-
-.imagem-de-site{
-    border-radius: 12px;
-}
-
 
 
 
@@ -95,6 +85,7 @@ body{
 footer{
     background-color: #161820;
     padding: 15px 0px;
+    margin-top: 20px;
 }
 
 .rodape{
@@ -113,7 +104,7 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 0;
-    margin: 0 20%;
+    margin: 0 80px;
     text-decoration: none;
     align-items: center;
 }
