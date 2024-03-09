@@ -97,12 +97,11 @@ footer{
 }
 
 .lista-opcoes{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 15% 5% 22% 5% 20% 5% 45%;
+    text-wrap: nowrap;
     padding: 0;
-    margin: 0 80px;
     text-decoration: none;
-    align-items: center;
 }
 
 .item-link{
