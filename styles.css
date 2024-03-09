@@ -4,7 +4,9 @@ body{
     margin: 0;
 }
 
-@media screen and (min-width: 214px) {
+
+/* DESENVOLVIMENTO MOBILE */
+@media screen and (min-width: 320px) {
 
 /* INICIO DA CUSTOMIZAÇÃO DO PRINCIPAL */
 .section-menu{
@@ -25,21 +27,15 @@ body{
     padding-bottom: 30px;
 }
 
-.img-titulo{
+.img-titulo-um{
     width: 280px;
     height: 30px;
     margin-left: 10px;
 }
 
-.div-botao-expandir{
-    display: flex;
-    align-self: center;
+.img-titulo-dois{
+    display: none;
 }
-
-.botao-expandir{
-    width: 60px;
-}
-
 
 
 
@@ -130,10 +126,131 @@ footer{
 
 }
 
-.pegi{
+/* .pegi{
     margin: 16px 0;
+} */
+
 }
 
 
 
+@media screen and (min-width: 480px) {
+
+/* INICIO DA CUSTOMIZAÇÃO DO PRINCIPAL */
+.section-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #3F4854;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+}
+
+.div-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-titulo-um{
+    width: 300px;
+
+}
+
+.img-titulo-dois{
+    display: flex;
+    width: 80px;
+    margin-right: 10px;
+}
+
+
+
+/* INICIO DA CUSTOMIZAÇÃO DOS ARTIGOS */
+.nossos-servicos{
+    display: flex;
+    margin-left: 35px;
+    color: #b6b6b6;
+}
+
+.titulo-artigo{
+    display: flex;
+    margin: 10px 10px 10px 35px;
+    color: #b6b6b6;
+    font-size: 28px;
+}
+
+.artigos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    background-color: #1F2026;
+}
+
+.imagem-artigo{
+    width: 440px;
+    padding-top: 3px;
+}
+
+.texto-artigos{
+    color: #727272;
+    text-align: justify;
+    padding: 0 20px 0 20px;
+}
+
+
+
+/* INÍCIO DA CUSTOMIZAÇÃO DO FOOTER */
+footer{
+    background-color: #161820;
+    padding: 15px 0px;
+    margin-top: 20px;
+}
+
+.rodape{
+    display: grid;
+
+}
+
+.img-logo{
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.lista-opcoes{
+    display: grid;
+    grid-template-columns: 15% 5% 22% 5% 20% 5% 45%;
+    text-wrap: nowrap;
+    padding: 0;
+    text-decoration: none;
+}
+
+.item-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.linha{
+    size: 100px;
+}
+
+.item-lista-opcoes{
+    list-style-type: none;
+}
+
+.nome-registro{
+    font-size: 14px;
+    color: #727272;
+    margin: 16px 0;
+
+}
+
+/* .img-pegi{
+    width: 80px;
+    margin: 16px 0;
+} */
+    
+    
 }
